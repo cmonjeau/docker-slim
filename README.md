@@ -10,9 +10,9 @@ git clone https://github.com/cmonjeau/docker-slim.git
 
 docker build -t cmonjeau/slim .
 
-### Print SLiM programs help ###
+### Print SLiM programs test ###
 
-docker run -it --rm cmonjeau/slim slim script.txt
+docker run -it --rm cmonjeau/slim slim -testEidos
 
 ### Run SLiM using Godocker (http://www.genouest.org/godocker/)
 
