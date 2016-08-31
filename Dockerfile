@@ -32,8 +32,8 @@ RUN make slim
 RUN ln -s ${DIR}/${SOURCE}/bin/slim /usr/local/bin/
 
 ## test if installation works
-RUN slim -testEidos
-RUN slim -testSLiM
+# RUN slim -testEidos
+# RUN slim -testSLiM
 
 ##################### Maintainer #####################
 
@@ -41,3 +41,4 @@ MAINTAINER Monjeaud Cyril <Cyril.Monjeaud@irisa.fr>
 
 #################### Example ########################
 
+# docker run -it --rm cmonjeau/slim slim --testEidos
