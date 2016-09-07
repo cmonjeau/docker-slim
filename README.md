@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/cmonjeau/slim.svg)](https://microbadger.com/images/cmonjeau/slim "Get your own image badge on microbadger.com")
+
 ### SLiM description ###
 
 SLiM is an evolutionary simulation framework that combines a powerful engine for population genetic simulations with the capability of modeling arbitrarily complex evolutionary scenarios. Simulations are configured via the integrated Eidos scripting language that allows interactive control over practically every aspect of the simulated evolutionary scenarios. The underlying individual-based simulation engine is highly optimized to enable modeling of entire chromosomes in large populations
